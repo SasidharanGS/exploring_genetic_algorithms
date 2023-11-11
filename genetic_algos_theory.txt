@@ -1,0 +1,19 @@
+1. Create a random population of N elemets 
+2. A) Calculate fitness for N elements
+    B) Reproduction / Selection
+        1) Pick 2 parents (based on probability given by fitness score)
+        2) Make a new element using:
+            - Cross-over
+            - Mutation
+
+Cross-over:
+- take half(usually) genetic information from each and combine the two
+
+Mutation:
+- used when there isnt enough variation in initial population to introduce artificial variation into the process
+- represented as a percentage weight
+
+Properties that must be present to make a successful genetic algorithm:
+1. Heredity
+2. Variation
+3. Selection
